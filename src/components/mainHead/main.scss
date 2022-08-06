@@ -1,0 +1,13 @@
+.heead {
+    h2 {
+        @media (max-width:767px) {
+            top: 30px !important;
+            font-size: 40px !important;
+        }
+    }
+    p {
+        @media (max-width:767px) {
+            font-size: 60px !important;
+        }
+    }
+}
