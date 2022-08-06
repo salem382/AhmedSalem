@@ -1,0 +1,39 @@
+@import '../../sass/variables.scss';
+.contact-page {
+    background-color: #111111;
+    min-height: 100vh;
+    color: #fff;
+    transition: all .8s ease-in-out;
+    .icon-demo {
+        width:45px;
+        height:45px;
+        background:#252525;
+        line-height: 45px;
+    }
+    input, textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        background-color: #252525;
+        padding-left: 15px;
+    }
+    input {
+        height: 50px;
+    }
+    textarea {
+        height: 150px;
+        padding-top: 10px;
+    }
+    .first-input {
+        input {
+            width: 48%;
+        }
+    }
+    form {
+        & > div {
+            margin-bottom: 25px;
+        }
+    }
+    
+}

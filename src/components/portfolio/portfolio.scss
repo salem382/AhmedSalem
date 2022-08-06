@@ -1,0 +1,88 @@
+@import '../../sass/variables.scss';
+.portfolio-page {
+    background-color: #111111;
+    min-height: 100vh;
+    color: #fff;
+    padding-top:50px;
+    padding-bottom: 20px;
+    transition: all .8s ease-in-out;
+    .active {
+        color: $yellow-color;
+    }
+    .portfolio-controls {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .portfolio-item{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        img {
+            top: 0;
+            left: 0;
+            transition: all 2s ease-in-out;
+        }
+    }
+    .pharmacy {
+        &:hover {
+            img {
+                top: -420px;
+            }
+        } 
+    }
+    .midstr {
+        &:hover {
+            img {
+                top: -1460px;
+            }
+        } 
+    }
+    .movApi {
+        &:hover {
+            img {
+                top: -810px;
+            }
+        } 
+    }
+    .movies {
+        &:hover {
+            img {
+                top: -200px;
+            }
+        } 
+    }
+    .arabx {
+        &:hover {
+            img {
+                top: -1500px;
+            }
+        } 
+    }
+    .elnagar {
+        &:hover {
+            img {
+                top: -1000px;
+            }
+        } 
+    }
+    .fokir {
+        &:hover {
+            img {
+                top: -1180px;
+            }
+        } 
+    }
+    .book {
+        &:hover {
+            img {
+                top: -40px;
+            }
+        } 
+    }
+    .dashboard {
+        &:hover {
+            img {
+                top: -150px;
+            }
+        } 
+    }
+}

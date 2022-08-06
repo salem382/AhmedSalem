@@ -1,0 +1,106 @@
+@import '../../sass/variables.scss';
+
+.nav {
+    @media (min-width:992px) {
+    position: fixed;
+    top: 0;
+    right: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 20px;
+    .hom{
+        .hover-shape::after {
+            content: 'Home';
+        }
+    }
+    .about{
+        .hover-shape::after {
+            content: 'About';
+        }
+    }
+    .portfolio{
+        .hover-shape::after {
+            content: 'Portfolio';
+        }
+    }
+    .contact{
+        .hover-shape::after {
+            content: 'Contact';
+        }
+    }
+
+    li {
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: $loading-color;
+        margin-top: 20px;
+        position: relative;
+        &.active {
+            background-color: $yellow-color;
+        }
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 3;
+        }
+        .icon:hover ~ .hover-shape {
+            opacity: 1;
+            width: 140px;   
+        }
+        .hover-shape {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 50px;
+            border-radius: 25px;
+            background-color: $yellow-color;
+            box-sizing: border-box;
+            line-height: 45px;
+            padding-right: 30px;
+            width: 100px;
+            opacity: 0;
+            transition: $transition;
+            &:hover {
+                opacity: 1;
+                width: 140px;
+            }
+        }
+    }
+    }
+    @media (max-width:992px) {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 999999999;
+        width: 100%;
+        padding: 10px 0 !important;
+        color: #fff;
+        background-color: #2B2A2A;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        padding: 10px;
+        li {
+            padding: 10px;
+            transition: $transition;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            background-color: $loading-color;
+            border-radius:50%;
+            &:hover {
+                background-color: $yellow-color;
+            }
+            &.active {
+                background-color: $yellow-color;
+            }
+        }
+    }
+}
