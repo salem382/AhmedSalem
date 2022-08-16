@@ -8,6 +8,7 @@ import { faEye, faCode } from '@fortawesome/free-solid-svg-icons'
 const btns = ['All', 'React', 'Frontend', 'javascript'];
 const data  = [
 {name: 'pharmacy', imgSrc:'images/egyptpharmacies.png',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','React']},
+{name: 'Cashir', imgSrc:'images/cashir.png',codeLink:'https://github.com/salem382/Cashir-Program',demoLink:'https://cashir-program.vercel.app/',depend:['All','React']},
 {name: 'midstr', imgSrc:'images/midstr.png',codeLink:'https://github.com/salem382/midstr',demoLink:'https://midstr-flax.vercel.app/',depend:['All','Frontend']},
 {name: 'movApi', imgSrc:'images/moviesApi.png',codeLink:'https://github.com/salem382/movies-api',demoLink:'https://movies-api-smoky-five.vercel.app/',depend:['All','Frontend']},
 {name: 'movies', imgSrc:'images/movies.png',codeLink:'https://github.com/salem382/movies',demoLink:'https://movies-ten-opal.vercel.app/search',depend:['All','React']},
