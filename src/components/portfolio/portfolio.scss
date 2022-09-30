@@ -6,7 +6,7 @@
     padding-top:50px;
     padding-bottom: 20px;
     transition: all .8s ease-in-out;
-    padding: 0 150px 70px 150px;
+    
     .active {
         color: $yellow-color;
     }
@@ -28,5 +28,8 @@
         img {
             height: 100%;
         }
+    }
+    @media (min-width:992px) {
+        padding: 0 150px 70px 150px;
     }
 }
