@@ -7,6 +7,9 @@ import { faEye, faCode } from '@fortawesome/free-solid-svg-icons'
 
 const btns = ['All','Frontend','Backend', 'javascript', 'cpp'];
 const data  = [
+{name: 'Ecommerce Website', imgSrc:'images/eco.png',codeLink:'https://github.com/salem382/nodeJs-noon-clone',demoLink:'https://github.com/salem382/nodeJs-noon-clone',depend:['All','Backend']},
+{name: 'Middle School', imgSrc:'images/middleSchool.jpg',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','Frontend']},
+{name: 'High School', imgSrc:'images/highSchool.jpg',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','Frontend']},
 {name: 'Pharmacies', imgSrc:'images/egyptpharmacies.png',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','Frontend']},
 {name: 'Casher', imgSrc:'images/cashir.png',codeLink:'https://github.com/salem382/Cashir-Program',demoLink:'https://cashir-program.vercel.app/',depend:['All','Frontend']},
 {name: 'Coffe', imgSrc:'images/coffe.png',codeLink:'https://github.com/salem382/coffe-shop',demoLink:'https://coffe-shop-xi.vercel.app/',depend:['All','Frontend']},
@@ -20,9 +23,8 @@ const data  = [
 {name: 'Elnagar', imgSrc:'images/elgar.png',codeLink:'https://github.com/salem382/Elnagar',demoLink:'https://salem382.github.io/Elnagar/',depend:['All','Frontend']},
 {name: 'Fokir', imgSrc:'images/fokir.png',codeLink:'https://github.com/salem382/Fokir',demoLink:'https://salem382.github.io/Fokir/',depend:['All','Frontend']},
 {name: 'Book List', imgSrc:'images/boook.png',codeLink:'https://github.com/salem382/Book-store',demoLink:'https://github.com/salem382/Book-store',depend:['All','React']},
-{name: 'Ecommerce Website', imgSrc:'images/eco.png',codeLink:'https://github.com/salem382/nodeJs-noon-clone',demoLink:'https://github.com/salem382/nodeJs-noon-clone',depend:['All','Backend']},
-{name: 'Middle School', imgSrc:'images/middle.png',codeLink:'https://github.com/salem382/nodeJs-Middle-School',demoLink:'https://github.com/salem382/nodeJs-Middle-School',depend:['All','Backend']},
-{name: 'high School', imgSrc:'images/high.png',codeLink:'https://github.com/salem382/nodJs-high-school',demoLink:'https://github.com/salem382/nodJs-high-school',depend:['All','Backend']},
+{name: 'Backend Middle School', imgSrc:'images/middle.png',codeLink:'https://github.com/salem382/nodeJs-Middle-School',demoLink:'https://github.com/salem382/nodeJs-Middle-School',depend:['All','Backend']},
+{name: 'Backend high School', imgSrc:'images/high.png',codeLink:'https://github.com/salem382/nodJs-high-school',demoLink:'https://github.com/salem382/nodJs-high-school',depend:['All','Backend']},
 {name: 'Library system', imgSrc:'images/lib.jpg',codeLink:'https://github.com/salem382/nodeJs_librarySystem',demoLink:'https://github.com/salem382/nodeJs_librarySystem',depend:['All','Backend']},
 {name: 'Snake Game', imgSrc:'images/snake.png',codeLink:'https://github.com/salem382/cpp-snake-game',demoLink:'https://github.com/salem382/cpp-snake-game',depend:['All','cpp']},
 {name: 'Ping pong Game', imgSrc:'images/pong.jpg',codeLink:'https://github.com/salem382/cpp-pingPong-game',demoLink:'https://github.com/salem382/cpp-pingPong-game',depend:['All','cpp']},
