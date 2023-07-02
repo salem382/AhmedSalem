@@ -6,6 +6,7 @@ import MainBtn from '../mainBtn/MainBtn';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 
+
 const Home = ({setActive}) => {
 
     const [loading, setLoading] = useState(false);
@@ -27,7 +28,7 @@ const Home = ({setActive}) => {
                     <div className="info text-center col-md-left">
                         <h1><span className='text-yellow'>I'M AHMED SALEM.</span><br /> FRONTEND DEVOLBER</h1>
                         <p>
-                           front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+                           MERN Stack developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
                         </p>
                         <div onClick={() => setActive(1)} style={{cursor:'pointer !important'}}>
                             <Link to='/about'><MainBtn title='more about me' ico={faArrowRight}/></Link> 

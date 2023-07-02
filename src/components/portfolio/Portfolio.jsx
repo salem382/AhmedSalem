@@ -8,8 +8,8 @@ import { faEye, faCode } from '@fortawesome/free-solid-svg-icons'
 const btns = ['All','Frontend','Backend', 'javascript', 'cpp'];
 const data  = [
 {name: 'Ecommerce Website', imgSrc:'images/eco.png',codeLink:'https://github.com/salem382/nodeJs-noon-clone',demoLink:'https://github.com/salem382/nodeJs-noon-clone',depend:['All','Backend']},
-{name: 'Middle School', imgSrc:'images/middleSchool.jpg',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','Frontend']},
-{name: 'High School', imgSrc:'images/highSchool.jpg',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','Frontend']},
+{name: 'Middle School', imgSrc:'/images/middleSchool.jpg',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','Frontend']},
+{name: 'High School', imgSrc:'/images/highSchool.jpg',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','Frontend']},
 {name: 'Pharmacies', imgSrc:'images/egyptpharmacies.png',codeLink:'https://github.com/salem382/EgyptPharmacies',demoLink:'https://egypt-pharmacies.vercel.app/',depend:['All','Frontend']},
 {name: 'Casher', imgSrc:'images/cashir.png',codeLink:'https://github.com/salem382/Cashir-Program',demoLink:'https://cashir-program.vercel.app/',depend:['All','Frontend']},
 {name: 'Coffe', imgSrc:'images/coffe.png',codeLink:'https://github.com/salem382/coffe-shop',demoLink:'https://coffe-shop-xi.vercel.app/',depend:['All','Frontend']},
